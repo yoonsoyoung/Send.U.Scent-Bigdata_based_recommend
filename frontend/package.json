@@ -1,0 +1,73 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.3.5",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "node-sass": "^6.0.1",
+    "password-validator": "^5.1.1",
+    "slither-slider": "^2.11.0",
+    "sweetalert": "^2.1.2",
+    "vue": "^3.0.0",
+    "vue-d3-cloud": "^0.2.0",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-router": "^4.0.0-0",
+    "vue-tags-ball": "^1.2.0",
+    "vue-wordcloud": "^1.1.1",
+    "vuewordcloud": "^18.7.12",
+    "vuex": "^4.0.0-0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/max-attributes-per-line": 0,
+      "vue/singleline-html-element-content-newline": 0,
+      "vue/multiline-html-element-content-newline": 0,
+      "no-console": 1,
+      "no-unused-vars": 1,
+      "no-undef": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
