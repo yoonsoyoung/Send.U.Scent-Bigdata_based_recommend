@@ -8,7 +8,7 @@ node_modules
 # production env files
 .env.production
 
-/utils/confg.js
+/utils/config.js*
 
 # Log files
 npm-debug.log*
